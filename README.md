@@ -1,43 +1,56 @@
-# Mohan P R
+# Walmart Sales Data Analysis
 
-**Location**: Bengaluru, Karnataka  
-**Contact**: +91 9535656475 | mohanbharadwaj90@gmail.com | [GitHub](https://github.com/mohanpr) | [LinkedIn](https://www.linkedin.com/in/mohan-pr-023362261)
+## Project Overview:
+This project involves analyzing Walmart sales data to identify key sales trends, customer behavior, and profit insights. By utilizing **SQL** and **Power BI**, the dataset was cleaned, transformed, and visualized to provide actionable insights into Walmart’s sales performance, helping drive better business decisions.
 
-## About Me:
-I am an enthusiastic and detail-oriented **Data Analyst** skilled in **SQL**, **Power BI**, **Excel**, and **Python**. My expertise lies in identifying data patterns, analyzing large datasets, and creating interactive dashboards to deliver actionable insights that support strategic business decisions. I've worked on several projects and internships where I applied my skills to optimize processes, improve efficiency, and generate insights for better decision-making.
+## Tools & Technologies Used:
+- **SQL**: For data querying, analysis, and generating insights
+- **Power BI**: For data modeling and creating interactive dashboards
+- **MS Excel**: For preliminary data validation and exploration
 
-## Skills:
-- **SQL**: Advanced queries, window functions, subqueries, CTEs, joins, aggregate functions
-- **Power BI**: ETL processes, data modeling, visualization, dashboard creation
-- **MS Excel**: Pivot tables, charts, Power Query, Power Pivot, data validation
-- **Python**: Pandas, NumPy, Matplotlib for data analysis and visualization
-- **Other**: Google Sheets, Analytical problem-solving, Business intelligence
+## Key Objectives:
+- Analyze sales data to identify the top-performing customers, cities, and product subcategories.
+- Track monthly sales and profit trends using SQL window functions and subqueries.
+- Visualize profit distribution across states, product categories, and customer segments.
+- Calculate shipment processing times and compare shipping efficiency across different regions.
 
-## Projects:
-### [Walmart Sales Analysis](#)  
-- **Tools**: SQL, Power BI  
-- Analyzed over 3,000 sales transactions to identify top customers, cities, and subcategories by orders, sales, and profit.  
-- Developed an interactive Power BI dashboard showcasing state-wise profit and loss, utilizing charts to visualize profit distribution across products, categories, and segments.
+## Dataset:
+The dataset contains over **3,000** sales transactions with the following columns:
+- **Order ID**, **Order Date**, **Ship Date**, **Ship Mode**, **Customer ID**, **Customer Name**
+- **Sales**, **Quantity**, **Discount**, **Profit**, **Category**, **Sub-Category**, **Product Name**
+- **Region**, **State**, **City**
 
-### [Diwali Sales Data Analysis](#)  
-- **Tools**: Python (Pandas, Matplotlib)  
-- Cleaned and analyzed Diwali sales data, enhancing data accuracy by 15%.  
-- Identified top-selling products and visualized demographic trends, helping guide customer engagement and future marketing strategies.
+## Key Analyses:
+1. **Top 10 Customers**: Identified the top customers based on total sales and profit generated.
+2. **City-Wise Performance**: Evaluated cities with the highest sales and profit margins.
+3. **State-Wise Profit Distribution**: Visualized profit and loss across different states.
+4. **Subcategory Sales**: Analyzed subcategories by orders and profit margins.
+5. **Sales Trends**: Tracked monthly sales and profit trends using SQL window functions.
+6. **Shipment Processing Times**: Calculated shipment delays and evaluated shipping efficiency.
 
-## Internship Experience:
-### **Unified Mentor | Data Analyst Intern** – September 2024  
-- **Crop Production Analysis**: Optimized SQL queries to calculate key metrics, including a 12% increase in wheat yield over 10 years. Created Power BI dashboards to visualize seasonal trends and top-yielding districts.  
-- **Supply Chain Management**: Developed a Power BI dashboard to analyze supply chain metrics, simulating a 15% reduction in lead times and optimizing costs by 10%.
+## Power BI Dashboard:
+An interactive Power BI dashboard was created to:
+- Visualize **profit distribution** across states using pie and bar charts.
+- Highlight **sales trends** using line charts for monthly and quarterly sales.
+- Showcase **customer segmentation** based on order quantity, sales, and profit.
 
-### **Universal Tribes | Marketing Data Analyst** – July to August 2023  
-- Designed and implemented a Power BI dashboard for 15,000 sales records, leading to a 10% increase in profitability by highlighting key sales trends.  
-- Conducted market research and proposed a discount strategy, resulting in a 5-7% increase in customer engagement and sales volume.
+The dashboard allows users to filter data by **regions**, **categories**, and **customer segments** to gain deeper insights into specific business areas.
 
-## Education:
-- **Bachelors of Commerce**, Davangere University, Karnataka (2020 - 2023)  
-  - CGPA: 9.04 | Ranked in the top 15 out of 30,000 students
+## Project Results:
+- Identified the **top 10 customers** who contributed significantly to sales.
+- Recognized **cities and states** that delivered the highest sales and profit.
+- Provided Walmart’s management with an overview of **product performance** across different categories and subcategories.
+- Offered insights into **shipment efficiency**, highlighting regions with potential for improvement.
 
-## Certifications:
-- **Data Analytics Course** – Cisco (April 2024)  
-- **Excel Certificate Course** – JP Morgan Chase & Co. (March 2024)  
-- **HackerRank SQL Certification** (April 2024)
+## Conclusion:
+The **Walmart Sales Data Analysis** project delivered valuable business insights through detailed data analysis and visualizations. By leveraging SQL and Power BI, the analysis supported strategic decision-making and offered a comprehensive view of Walmart’s sales and profitability across different dimensions.
+
+## How to Use:
+1. **SQL Queries**: Review and execute the SQL queries in the `sql/` folder to analyze the sales data.
+2. **Power BI Dashboard**: Open the `.pbix` file in Power BI Desktop to explore the interactive dashboard.
+3. **Dataset**: The dataset used for the analysis can be found in the `data/` folder.
+
+## Future Enhancements:
+- Incorporate **predictive analysis** for forecasting future sales trends.
+- Further segment customer data to analyze behavior by **demographic groups**.
+- Explore **seasonal trends** by adding time-series analysis.
